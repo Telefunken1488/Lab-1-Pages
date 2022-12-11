@@ -1,0 +1,259 @@
+body{
+    background-color: rgb(216, 241, 241);
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.5%;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 1.5% 0;
+    margin: 2% 0;
+    border: 2px solid #333;
+    box-shadow: 0px 0px 4px 2px #364c4c;
+}
+.Caption_Block{
+    border: 2px solid #333;
+    margin: 0 2%;
+    box-shadow: 0px 0px 4px 2px #364c4c;
+
+}
+
+.Caption_Text{
+    padding: 15px;
+}
+
+.Caption_Header{
+    border-bottom: 2px solid #333;
+    border-left: 2px solid #333;
+    width: 35%;
+    margin: 0 0 0 65%;
+    text-align: center;
+}
+.buttons{
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.link_button {
+    text-transform: uppercase;
+    font-size: 22px;
+    width: 100%;
+    margin: 2% auto;
+    box-shadow: 0px 0px 4px 4px #364c4c;
+    text-align: center;
+    padding: 1% 0%;
+    transition: 0.2s;
+    background-color: rgba(255, 255, 255, 0.585);
+}
+
+.link_button:hover {
+    background-color: #80a4a49d;
+    transition: 0.2s;
+}
+
+.link_button:active {
+    background-color: #6f8f8fca;
+    transition: 0.2s;
+}
+
+a {
+    color: #000;
+}
+
+/* 148814881488 FOR DESKTOP 14888148881488 */
+@media (min-width: 992px) {
+
+
+   
+   
+
+    
+    
+    .col-lg-1 {
+        width: 8.33%;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+    }
+
+    .col-lg-8 {
+        width: 66.66%; 
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.33%;
+    }
+
+    .col-lg-11 {
+        width: 91.66%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    } 
+    
+  }
+
+  /* 148814881488 FOR LENOVO YOGA TABLET 14888148881488 */
+  @media (min-width: 768px) and (max-width: 992px) {
+     
+    .wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+/*ipad to je GUVNO*/
+    .Caption_Block:nth-child(3){
+        margin-top: 5%;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%; 
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+  }
+
+  /* 148814881488 FOR LENOVO PHONE 14888148881488 */
+  @media (max-width: 768px) {
+
+    .wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+  
+  
+    .Caption_Block:nth-child(2){
+        margin: 3% auto;
+  
+      
+    }
+    .link_button:nth-child(1){
+        margin-bottom: 12%;
+    }
+  
+     
+    .col-sm-1 {
+      width: 8.33%;
+  }
+  
+  .col-sm-2 {
+      width: 16.66%;
+  }
+  
+  .col-sm-3 {
+      width: 25%;
+  }
+  
+  .col-sm-4 {
+      width: 33.33%;
+  }
+  
+  .col-sm-5 {
+      width: 41.66%;
+  }
+  
+  .col-sm-6 {
+      width: 50%;
+  }
+  
+  .col-sm-7 {
+      width: 58.33%;
+  }
+  
+  .col-sm-8 {
+      width: 66.66%; 
+  }
+  
+  .col-sm-9 {
+      width: 75%;
+  }
+  
+  .col-sm-10 {
+      width: 83.33%;
+  }
+  
+  .col-sm-11 {
+      width: 91.66%;
+  }
+  
+  .col-sm-12 {
+      width: 100%;
+  }
+  
+        
+      
+  }
